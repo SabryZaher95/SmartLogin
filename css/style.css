@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24353f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+}
+
+input:focus{
+    border: 1px solid #09c;
+    outline: 0;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+    background-color: #24353f;
+}
+
+/*=========================Sign In========================*/
+.container .box{
+    height: 100vh;
+    background-color: #24353f;
+}
+
+.container .box .form-container{
+    width: 100%;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    text-align: center;
+    margin: 50px 0;
+    padding: 40px 30px;
+}
+
+.container .box .form-container h2{
+    color: #17a2b8;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+/*================ Sign Up ====================*/
+.container .box .form-container #nameExist{
+    display: none;
+    margin-bottom: 15px;
+    color: rgb(176, 24, 24);
+}
+
+.container .box .form-container #emailExist{
+    display: none;
+    margin-bottom: 15px;
+    color: rgb(176, 24, 24);
+}
+/*================ End Sign Up ====================*/
+
+.container .box .form-container input[type='submit']{
+    color: #09c;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.container .box .form-container input[type='submit']:hover{
+    background-color: #09c;
+    color: #fff;
+    border-color: #09c;
+}
+
+.container .box .form-container #loginBtn{
+    text-decoration: none;
+    color: #09c;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.container .box .form-container #loginBtn:hover{
+    background-color: #09c;
+    border-color: #09c;
+    color: #fff;
+}
+
+.container .box .form-container #errorMsg,
+.container .box .form-container #invalidMsg{
+    display: none;
+    margin-bottom: 20px;
+    color: rgb(176, 24, 24);
+}
+
+/*================ Sign Up ====================*/
+.container .box .form-container #successMsg{
+    display: none;
+    margin-bottom: 20px;
+    color: rgb(22, 134, 22);
+}
+/*================ End Sign Up ====================*/
+
+.container .box .form-container p{
+    color: #fff;
+    font-weight: 400;
+}
+
+.container .box .form-container p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*=========================End Sign In========================*/
+
+/*=========================Home========================*/
+nav{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    margin-bottom: 50px;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+nav .navbar .logo h2{
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+nav .navbar .logout a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ffc107;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+nav .navbar .logout a:hover{
+    background-color: #ffc107;
+}
+
+.greeting{
+    height: 110px;
+    padding: 20px;
+    text-align: center;
+    color: #09c;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    width: 75%;
+    margin: auto;
+}
+
+.greeting h1{
+    font-weight: 500;
+}
+/*=========================End Home========================*/

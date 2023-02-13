@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="form-container">
+                <h2>Smart Login System</h2>
+                <!-- <form> -->
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    <span id="nameExist">This name is not available</span>
+                    <input type="email" name="regEmail" id="regEmail" placeholder="Enter your Email">
+                    <span id="emailExist">This email is not available</span>
+                    <input type="password" name="regPassword" id="regPassword" placeholder="Enter your Password">
+                    <span id="errorMsg">All inputs Required</span>
+                    <span id="successMsg">Success</span>
+                    <input type="submit" value="Sign Up" id="RegBtn" onclick="signUp()">
+                <!-- </form> -->
+                <p>
+                    You have an account
+                    <a href="index.html">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
